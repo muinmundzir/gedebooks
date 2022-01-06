@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2.5rem 0 0;
+  border-right: 1px solid #d5d8df;
+}
+
+.header {
+  margin: 0 0 0.5625rem 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1a1a19;
+}
+
+.form__desc {
+  margin: 0 0 1rem 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #393838;
+}
+
+.form__select {
+  display: flex;
+  margin: 0 0 1.5rem 0;
+  gap: 1rem;
+}
