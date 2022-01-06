@@ -1,0 +1,29 @@
+.form__label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #393b3f;
+  margin: 0 0 0.5rem 0;
+}
+
+.form__input {
+  padding: 0.5rem 1rem;
+  background: #ffffff;
+  border: 1px solid #d5d8df;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 0 1.5rem 0;
+  font-family: Roboto;
+  font-size: 13px;
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a4a8ae;
+}
