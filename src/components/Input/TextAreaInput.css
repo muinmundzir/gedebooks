@@ -1,0 +1,9 @@
+.form__input {
+  padding: 0.5rem 1rem;
+  background: #ffffff;
+  border: 1px solid #d5d8df;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 0 1.5rem 0;
+  font-family: Roboto;
+}
