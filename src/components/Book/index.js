@@ -51,10 +51,7 @@ const Book = () => {
 
   const handleUpdateBook = async (book) => {
     try {
-      const result = await axios.patch(
-        `http://localhost:3000/books/${book.id}`,
-        book
-      )
+      await axios.patch(`http://localhost:3000/books/${book.id}`, book)
       getBooks()
     } catch (error) {
       console.log(error)
