@@ -1,0 +1,16 @@
+.select__input {
+  border: 1px solid #d5d8df;
+  background: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  width: 9rem;
+}
+
+.select__input:disabled {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a4a8ae;
+}
