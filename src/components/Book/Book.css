@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  padding: 2rem 1.5rem;
+}
+
+.main:first-child {
+  border: 1px solid #d5d8df;
+}
+
+.main > * {
+  flex-basis: 100%;
+}
